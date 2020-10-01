@@ -1,0 +1,148 @@
+body{
+    margin: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: #0065fc;
+   /* @font-face {
+        font-family: relaway light;
+        src: url(https://fonts.google.com/specimen/Raleway);
+    }*/
+}
+nav{
+   display: flex;
+}
+nav>ul>li{
+   float: left; 
+   padding: 20px;
+   list-style-type: none;
+}
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    border-top: #0065fc solid 3px;
+    
+}
+.filters{
+    padding-top: 15px;
+}
+.part_1{
+    margin-top: 20px;
+    display: flex;
+}
+h3{
+    text-align: left;
+}
+.titrehotels{
+    padding-left: 30px;
+}
+.icones-hotels{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nom_hotel{
+    font-weight: bold;
+}
+.hebergements{
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding-left: 5px;
+} 
+.hebergements a{
+  text-decoration: none;
+  color: black;
+}
+.onglets-hotels{
+    background-color: white;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.populaire{
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.populaire a{
+    text-decoration: none;
+    color: black;
+}
+
+.onglets-hotels-pop{
+    background-color: white;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 80px;
+    margin-left: 5px;
+    
+}
+
+.activites{
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.activites a{
+    text-decoration: none;
+    color: black;
+}
+.icones-activites{
+    display: flex;
+    justify-content: space-around;
+}
+.colone{
+    display: flex;
+    flex-direction: column;
+}
+.onglets-activités{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px #f2f2f2;
+    padding-bottom: 15px;
+}
+.titre_activites{
+    font-weight: bold;
+    padding-left: 5px;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img-pop{
+    border-radius: 10px 0px 0px 10px;
+    float: left;
+    padding-right: 15px;
+}
+footer{
+    display: flex;
+    padding: 20px;
+    background-color:#f2f2f2; 
+    justify-content: space-between;
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.a_propos a{
+    display: flex;
+}
+.nos_hebergements a{
+    display: flex;
+}
+.assistance a{
+    display: flex;
+    padding-right: 400px;
+}
