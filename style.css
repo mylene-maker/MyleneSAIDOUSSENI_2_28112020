@@ -68,6 +68,16 @@ h3{
     text-align: justify;
     padding: 10px;
 }
+.evaluation a{
+	text-decoration: none;
+    color: #aaa;
+    font-size: 1.5em;
+}
+.evaluation a:hover, .evaluation a:focus,
+.evaluation a:hover ~ a, .evaluation a:focus ~ a{
+	color: #0065fc;
+	cursor: pointer;
+}
 .populaire{
     background-color: #f2f2f2;
     padding: 20px;
