@@ -1,6 +1,8 @@
 body{
     margin: 40px;
 }
+
+/*entête de la page */
 header{
     display: flex;
     justify-content: space-between;
@@ -28,9 +30,40 @@ nav>ul>li>a {
     border-top: #0065fc solid 3px;
     
 }
+
+/* Sous- entête avec bouton de recherche et les filtres*/
+.recherche{
+    display: flex;
+}
+.recherche button {
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px;
+    width: 130px;
+    height: 40.5px;
+}
+.recherche img{
+    padding-top: 5px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #deebff;
+    padding: 11.5px;
+}
+.recherche input{
+    height: 40px;
+    border: 1px solid #deebff;
+    padding: 20px;
+}
+button{
+    color: white;
+
+}
 .filters{
     padding-top: 15px;
 }
+.info{
+    display: flex;
+}
+
+/* première partie gauche du corps de la page*/
 .part_1{
     margin-top: 20px;
     display: flex;
@@ -78,6 +111,12 @@ h3{
 	color: #0065fc;
 	cursor: pointer;
 }
+
+/* partie droite du corps de la page */
+.titre_icone{
+    display: flex;
+    justify-content: space-between;
+}
 .populaire{
     background-color: #f2f2f2;
     padding: 20px;
@@ -99,6 +138,8 @@ h3{
     margin-left: 5px;
     
 }
+
+/* Section des activités sur Marseille*/
 
 .activites{
     margin-bottom: 20px;
@@ -135,6 +176,9 @@ img{
     float: left;
     padding-right: 15px;
 }
+
+/* Pieds de page*/
+
 footer{
     display: flex;
     padding: 20px;
