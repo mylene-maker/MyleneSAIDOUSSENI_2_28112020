@@ -54,6 +54,10 @@ nav>ul>li>a {
 }
 button{
     color: white;
+}
+button:hover{
+    cursor: pointer;
+    color: #867d7d;
 
 }
 
@@ -74,7 +78,8 @@ button{
     font-weight: bold;
 }
 .filtres:hover{
-    background-color: #deebff;
+    background-color: #0065fc;
+    cursor: pointer;
 }
 
 .info{
@@ -82,42 +87,32 @@ button{
 }
 /* première partie gauche du corps de la page*/
 .part_1{
-    margin-top: 20px;
-    display: flex;
+   display: flex;
 }
-h3{
-    text-align: left;
+.titre-hotels{
+   margin-right: 700px;
 }
-.titrehotels{
-    padding-left: 30px;
-}
-.icones-hotels{
+.icones_hotels{
+    
     display: flex;
     flex-wrap: wrap;
-}
-.nom_hotel{
-    font-weight: bold;
-}
-.hebergements{
-    background-color: #f2f2f2;
-    padding: 20px;
+    justify-content: space-between;
+    justify-content: center;
     width: 70%;
-    margin-right: 50px;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #f2f2f2;
     border-radius: 20px;
-    padding-left: 5px;
-} 
-.hebergements a{
-  text-decoration: none;
-  color: black;
+    margin-right: 20px;
+    box-shadow: 3px 3px 3px #deefde;
 }
-.onglets-hotels{
+
+.onglets_hotels{
     background-color: white;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 10px;
     text-align: justify;
-    padding: 10px;
+    box-shadow: 3px 3px 3px #deefde;
 }
+
 .evaluation a{
 	text-decoration: none;
     color: #aaa;
@@ -127,6 +122,11 @@ h3{
 .evaluation a:hover ~ a, .evaluation a:focus ~ a{
 	color: #0065fc;
 	cursor: pointer;
+}
+.image-plus{
+    margin-left: 40px;
+    margin-top: 40px;
+   margin-right: 850px;  
 }
 
 /* partie droite du corps de la page */
@@ -139,9 +139,10 @@ h3{
     padding: 20px;
     width: 30%;
     border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px #deefde;
 }
-
-.populaire a{
+.populaire, a{
     text-decoration: none;
     color: black;
 }
@@ -151,9 +152,9 @@ h3{
     border-radius: 20px;
     text-align: justify;
     padding: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     margin-left: 5px;
-    
+    box-shadow: 3px 3px 3px #deefde;
 }
 
 /* Section des activités sur Marseille*/
@@ -169,6 +170,7 @@ h3{
 .icones-activites{
     display: flex;
     justify-content: space-around;
+    
 }
 .colone{
     display: flex;
@@ -216,4 +218,43 @@ footer a{
 .assistance a{
     display: flex;
     padding-right: 400px;
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header{
+        border-bottom: 2px solid #f2f2f2;
+    }
+
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     
+     .filters{
+        display: flex;
+        flex-direction: column;
+    }
+     .part_1{
+         display: flex;
+         flex-direction: column-reverse;
+     }
+     .populaire{
+         width: auto;
+     }
+
+     .icones-activites{
+         display: flex;
+         flex-direction: column;
+         width: auto;
+     }
+
+     footer{
+         display: flex;
+         flex-direction: column;
+     }
 }
