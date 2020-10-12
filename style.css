@@ -28,7 +28,12 @@ nav>ul>li>a {
 }
 .menu:hover{
     border-top: #0065fc solid 3px;
-    
+}
+.menu a:hover{
+    color: #0065fc;
+}
+.inscription{
+    color: #0065fc;
 }
 
 /* Sous- entête avec bouton de recherche et les filtres*/
@@ -89,7 +94,7 @@ button:hover{
 }
 .filtres button{
     color: black;
-    padding: 8px;
+    padding: 10px;
     border: none;
     border-radius: 20px;
     font-weight: bold;
@@ -103,6 +108,9 @@ button:hover{
 
 .info{
     display: flex;
+    margin: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /* première partie gauche du corps de la page*/
 .part_1{
@@ -428,6 +436,7 @@ footer li{
     .menu{
         border-bottom: 1px solid #f2f2f2;
     }
+    
     .menu:hover{
         color: #0065fc;
         border-top: none;
@@ -437,7 +446,7 @@ footer li{
         background-image: url();
     }
     .filters{
-        width: 100%;        
+        width: 100%;  
     }
     .part_1{
         flex-direction: column;
