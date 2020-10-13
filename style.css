@@ -7,13 +7,10 @@ header{
     display: flex;
     justify-content: space-between;
 }
-h1{
-    color: #0065fc;
-   /* @font-face {
-        font-family: relaway light;
-        src: url(https://fonts.google.com/specimen/Raleway);
-    }*/
+header img{
+    width: 200px;
 }
+
 nav{
    display: flex;
 }
@@ -116,6 +113,9 @@ button:hover{
 .part_1{
    display: flex;
 }
+.part_1 img{
+    object-fit: cover;
+}
 .titre-hotels{
    margin-right: 700px;
 }
@@ -140,23 +140,22 @@ button:hover{
     text-align: justify;
     box-shadow: 3px 3px 3px #deefde;
 }
-.onglets_hotels img{
-    padding-bottom: 10px;
-}
 
 .evaluation {
     color: #aaa;
     font-size: 1.5em;
 }
-.evaluation:hover, .evaluation:focus{
+.evaluation span:hover{
 	color: #0065fc;
 	cursor: pointer;
 }
 
-
 .image-plus{
    margin: auto; 
    margin-left: 40px;
+}
+.image-plus a:hover{
+    color: #0065fc;
 }
 
 /* partie droite du corps de la page */
@@ -197,6 +196,9 @@ button:hover{
     text-decoration: none;
     color: black;
 }
+.activites img{
+    object-fit: cover;
+}
 .icones-activites{
     display: flex;
     justify-content: space-around;
@@ -223,7 +225,7 @@ img{
 .img-pop{
     border-radius: 10px 0px 0px 10px;
     float: left;
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 /* Pieds de page*/
@@ -283,9 +285,9 @@ footer li{
        padding-left: 8px;
     }
     .onglets_hotels img{
-        border-radius: 10px 0px 10px 0px; /*bordure à verifier*/
-        padding-bottom: 10px;
-        padding-right: 10px;
+        border-radius: 10px 0px 0px 10px; /*bordure à verifier*/
+        margin-right: 10px;
+       height:130px ;
     }
     .image-plus{
         justify-content: space-around;
