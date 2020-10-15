@@ -177,11 +177,12 @@ button:hover{
 }
 
 .onglets-hotels-pop{
+    display: flex;
     background-color: white;
     border-radius: 20px;
     text-align: justify;
     padding: 10px;
-    padding-bottom: 60px;
+    height: auto;
     margin-left: 5px;
     box-shadow: 3px 3px 3px #deefde;
 }
