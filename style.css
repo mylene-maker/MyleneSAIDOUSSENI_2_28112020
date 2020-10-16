@@ -140,14 +140,25 @@ button:hover{
     text-align: justify;
     box-shadow: 3px 3px 3px #deefde;
 }
-
+figure span{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 15px;
+}
 .evaluation {
     color: #aaa;
     font-size: 1.5em;
+    margin-right: 40px;
 }
 .evaluation span:hover{
 	color: #0065fc;
 	cursor: pointer;
+}
+.evaluation span:hover ~ span{
+    color: #0065fc;
+}
+.evaluation_blue{
+    color: #0065fc;;
 }
 
 .image-plus{
@@ -225,7 +236,6 @@ img{
 
 .img-pop{
     border-radius: 10px 0px 0px 10px;
-    float: left;
     margin-right: 15px;
 }
 
@@ -403,6 +413,9 @@ footer li{
         margin-right: 50px;
         padding-right: 180px;
      }
+     .evaluation{
+         margin-right: 660px;
+     }
        
      .icones-activites{
          display: flex;
@@ -473,6 +486,9 @@ footer li{
         width: 400px;
         height: 150px;
         border-radius: 10px 10px 0px 0px; /*bordure a verifier*/
+    }
+    .evaluation{
+        margin-right: 225px;
     }
     .image-plus {
         margin: 20px;
