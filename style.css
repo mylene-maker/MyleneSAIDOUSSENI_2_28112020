@@ -14,9 +14,11 @@ header{
     justify-content: space-between;
     padding-top: 30px;
     width: 100%;
+    margin-bottom: 40px;
 }
 header img{
     width: 15%;
+    margin-top: -20px;
 }
 .sous-menu{
     display: none;
@@ -70,6 +72,7 @@ label i{
 ::placeholder{
     color: black;
     font-weight: bold;
+    padding: 10px;
 }
 
 button:hover{
@@ -136,6 +139,7 @@ i{
 h3{
     margin: 15px;
 }
+
 .gauche{
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -154,8 +158,14 @@ h3{
     border-radius: 20px;
     background-color: white;
     padding: 5px;
-    box-shadow: 2px 2px 2px 2px #deebff;
-    
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.onglets_hotels figcaption{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.onglets_hotels figcaption p{
+    margin-top: -15px;
 }
 .onglets_hotels img{
     border-radius: 10px 10px 0px 0px;
@@ -181,15 +191,24 @@ h3{
     margin-right: 30px;
 }
 .onglets-hotels-pop{
-    
     display: flex;
     border: 1px solid #f2f2f2;
     border-radius: 20px;
     background-color: white;
     padding: 5px;
-    box-shadow: 2px 2px 2px 2px #deebff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.onglets-hotels-pop figcaption{
+    margin-top: -10px;
+}
+.onglets-hotels-pop figcaption p{
+    margin-top: -15px;
+    margin-bottom: 30px;
 }
 
+.img-pop{
+    height: 130px;
+}
 .onglets-hotels-pop img{
     border-radius: 10px 0px 0px 10px;
     margin-right: 10px;
@@ -213,7 +232,7 @@ h3{
  .onglets-activités{
     border: 1px solid #f2f2f2;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px #f2f2f2;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     padding-bottom: 10px;
     
  }
@@ -409,13 +428,16 @@ h3{
         margin: 0px;
         margin-bottom: 20px;
     }
+    .part_1{
+        flex-direction: column;
+    }
     .droite{
-        width: 50%;
+        width: 100%;
     }
     .onglets-hotels-pop{
         flex-direction: column;
-        width: 90%;
-        margin-left: 10px;
+        width: 80%;
+        margin-left: 50px;
     }
     .onglets-hotels-pop img{
         width: 100%;
@@ -424,29 +446,26 @@ h3{
         margin-bottom: 5px;
     }
     .gauche{
-        width: 50%;
+        width: 100%;
+        margin-bottom: 30px;
     }
     .onglets_hotels{
-        width: 90%;
-        margin-left: 10px;
+        width: 80%;
+        margin-left: 50px;
     }
     .onglets_hotels img{
         width: 100%;
         height: 200px;
     }
-   .activites{
-       width: 100%;
-   }
-   .activites img{
-       height: 250px;
-   }
-   .icones-activites{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-   }
-   .colone{
-       display: flex;
-   }
+
+    .activites{
+        width: auto;
+    }
+    .icones-activites{
+    flex-wrap: wrap;
+    }
+    .icones-activites img{
+    width: 290px;
+    }
 
  }
