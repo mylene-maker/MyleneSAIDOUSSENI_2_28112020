@@ -326,9 +326,9 @@ h3{
       border-bottom: 2px solid #0065fc;
     } 
     main{
-        margin-top: 40px;
         max-width: 100%;
         margin-left: -25px;
+       
     }
     
     .recherche{
@@ -402,6 +402,7 @@ h3{
     .hebergement-Marseille{
         flex-direction: column;
         width: 100%;
+        margin: auto;
     }
     .onglets_hotels{
         width: auto;
@@ -413,8 +414,10 @@ h3{
         height: 150px;
     }
    .droite{
-        width: 125%;
-        margin-left: -27px;
+        width: 123%; 
+        border: none;
+        border-radius: 0px;
+        margin-left: -22px;
     }
     
     .titre_icone{
@@ -422,7 +425,7 @@ h3{
         margin-left: 20px;
     }
     .onglets-hotels-pop{
-        width: 80%;
+        width: 85%;
         margin-left: 0px;
         margin-left: 20px;
 
